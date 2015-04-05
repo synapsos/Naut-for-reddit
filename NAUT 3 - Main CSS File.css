@@ -1133,8 +1133,8 @@
 						.expando-button, .expando-button.image, .expando-button.video-muted {
 							position: relative;
 							margin: 2px 6px 2px 0px !important;
-							width: 16px;
-							height: 16px;
+							width: 16px !important;
+							height: 16px !important;
 							border-radius: 2px;
 							background-color: transparent;
 							background-image: url(%%spritesheet%%) !important;
@@ -1161,11 +1161,11 @@
 							.expando-button.video.expanded 						{background-position: -64px -32px;}
 							.expando-button.video.expanded:hover 				{background-position: -80px -32px;}
 
-							.expando-button.image.collapsedExpando				{background-position: -160px -32px;}
-							.expando-button.image.collapsedExpando:hover 		{background-position: -176px -32px;}
+							.expando-button.image.collapsedExpando				{background-position: -160px -32px !important;}
+							.expando-button.image.collapsedExpando:hover 		{background-position: -176px -32px !important;}
 
-							.expando-button.image.expanded						{background-position: -64px -32px;}
-							.expando-button.image.expanded:hover				{background-position: -80px -32px;}
+							.expando-button.image.expanded						{background-position: -64px -32px !important;}
+							.expando-button.image.expanded:hover				{background-position: -80px -32px !important;}
 
 							.expando-button.image.gallery.collapsedExpando		{background-position: -128px -32px;}
 							.expando-button.image.gallery.collapsedExpando:hover{background-position: -144px -32px;}
